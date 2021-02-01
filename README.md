@@ -1,5 +1,9 @@
 # Django React Template
 
+## Known Issues
+
+- For some reason, `django-configurations` is temperamental. Sometimes it will load `.env` values correctly and other times it will not. Further investigation is needed; in the meantime, use `os.getenv('value')` and any necessary post-processing of the resulting string in order to populate values which MUST be set.
+
 ## Setup
 
 1. Create `config/.env` and fill out the fields listed in `config.env.example`
