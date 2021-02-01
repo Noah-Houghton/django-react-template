@@ -1,0 +1,10 @@
+# project requirements
+django
+django-extensions
+django-configurations
+django-debug-toolbar
+django-webpack-loader
+whitenoise
+Werkzeug
+django-environ
+django-react-components
